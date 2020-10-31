@@ -405,3 +405,103 @@ main .main-exchange {
     color: var(--just-white);
     padding-top: 64px;
 }
+
+.section-plans {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background: var(--off-white);
+    padding: 64px 0;
+    text-align: center;
+}
+
+.section-plans .plans-information {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.plans-information .plans__tittle {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+    margin-bottom: 24px;
+}
+
+.plans-information .plans__description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--secondary-grey);
+}
+
+
+/*card keloke*/
+
+.plans-card {
+    position: relative;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: var(--just-white);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, .16);
+}
+
+.plans-card .card_tittle_recommended {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: var(--just-white);
+    border-radius: 4px;
+    padding: 8px;
+    background: var(--bitcoin-orange);
+    top: calc(0% - 15px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.plans-card .plans-card-content {
+    padding-top: 31px;
+}
+
+.plans-card-content .plans-card__tittle {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin-bottom: 6px;
+}
+
+.plans-card-content .plans-card__price {
+    font-family: 'Inter', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.plans-card-content .plans-card__price span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    vertical-align: 25px;
+    padding-right: 4px;
+}
+
+.plans-card-content .plans-card__message {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    color: var(--secondary-grey);
+    margin-bottom: 16px;
+}
