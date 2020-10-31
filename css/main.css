@@ -336,7 +336,7 @@ main .main-exchange {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: auto;
+    min-height: 150px;
     margin: 16px auto;
     background: var(--primary-black);
     padding: 16px 16px 22px 16px;
@@ -384,4 +384,23 @@ main .main-exchange {
     line-height: 1.8rem;
     font-weight: 500;
     color: #808080;
+}
+
+.section-bitcoin-image {
+    width: 100%;
+    min-width: 320px;
+    min-height: 380px;
+    background-image: url('../assets/images/bitcoinskr2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.section-bitcoin-image h2 {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    color: var(--just-white);
+    padding-top: 64px;
 }
