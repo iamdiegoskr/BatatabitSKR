@@ -467,7 +467,7 @@ main .main-exchange {
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin-right: 16px;
+    margin-right: 8px;
     margin-bottom: 64px;
     padding: 0 16px;
     background: var(--just-white);
@@ -583,4 +583,49 @@ main .main-exchange {
 
 .icon-vip {
     background-image: url('../assets/icons/flecha-purple.svg');
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+footer section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section.social-media ul {
+    list-style: none;
+}
+
+footer section.social-media li {
+    margin-bottom: 8px;
+}
+
+footer section.social-media a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+footer section.logo-footer {
+    flex-direction: column;
+}
+
+footer section.logo-footer img {
+    margin-bottom: 8px;
+}
+
+footer section.logo-footer p {
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
 }
