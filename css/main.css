@@ -476,6 +476,10 @@ main .main-exchange {
     box-shadow: 0 4px 8px rgba(89, 73, 30, .16);
 }
 
+.plans-container-slider .plans-card:last-child {
+    margin-right: 0;
+}
+
 .plans-card .card_tittle {
     position: absolute;
     width: 100px;
