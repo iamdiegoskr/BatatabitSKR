@@ -24,3 +24,7 @@
 .plans-card {
     margin-right: 45px;
 }
+
+.section-bitcoin-image {
+    background-image: url('../assets/images/bitcoinskr2x.png');
+}

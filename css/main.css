@@ -147,7 +147,7 @@ main .main-exchange {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: var(--secondary-grey);
+    color: #535151;
 }
 
 .section-tables {
@@ -167,7 +167,7 @@ main .main-exchange {
 
 .general-table .table__tittle {
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     font-weight: bold;
     line-height: 2.3rem;
     margin-bottom: 12px;
@@ -176,11 +176,11 @@ main .main-exchange {
 }
 
 .table__tittle--currency {
-    color: #FF9536;
+    color: #ff7900;
 }
 
 .table__tittle--commissions {
-    color: var(--secondary-blue);
+    color: #0093fe;
 }
 
 .general-table .general-table__container {
@@ -201,7 +201,7 @@ main .main-exchange {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
-    color: #B5B0AC;
+    color: #4b4846;
     background: var(--just-white);
 }
 
@@ -225,7 +225,6 @@ main .main-exchange {
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.7rem;
-    color: var(--secondary-grey)
 }
 
 .general-table__container .down {
@@ -278,19 +277,6 @@ main .main-exchange {
     background: var(--soft-blue);
 }
 
-
-/* .main-exchange-patata {
-    width: 40px;
-    height: 25px;
-    position: absolute;
-    top: calc(100% - 12px);
-    left: calc(50% - 20px);
-}
-
-.main-exchange-patata img {
-    object-fit: cover;
-} */
-
 .section-product-detail {
     position: relative;
     width: 100%;
@@ -334,7 +320,7 @@ main .main-exchange {
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 500;
-    color: #808080;
+    color: #cecece;
 }
 
 .product-detail-card {
@@ -388,14 +374,14 @@ main .main-exchange {
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 500;
-    color: #808080;
+    color: #b4b4b4;
 }
 
 .section-bitcoin-image {
     width: 100%;
     min-width: 320px;
     min-height: 380px;
-    background-image: url('../assets/images/bitcoinskr2x.png');
+    background-image: url('../assets/images/bitcoinskr2xmin.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -441,7 +427,7 @@ main .main-exchange {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: var(--secondary-grey);
+    color: #201e1c;
 }
 
 
@@ -614,9 +600,9 @@ footer section.social-media li {
 footer section.social-media a {
     text-decoration: none;
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.8rem;
-    color: var(--just-white);
+    color: var(--warm-black);
 }
 
 footer section.logo-footer {
@@ -629,7 +615,7 @@ footer section.logo-footer img {
 
 footer section.logo-footer p {
     font-size: .8rem;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.8rem;
-    color: var(--soft-orange);
+    color: var(--warm-black);
 }
