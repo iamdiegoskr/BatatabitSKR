@@ -410,12 +410,15 @@ main .main-exchange {
     padding-top: 64px;
 }
 
+
+/*SECTION PLANS*/
+
 .section-plans {
     width: 100%;
     min-width: 320px;
     height: auto;
     background: var(--off-white);
-    padding: 64px 0;
+    padding: 64px 16px;
     text-align: center;
 }
 
@@ -424,7 +427,6 @@ main .main-exchange {
     min-width: 288px;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 .plans-information .plans__tittle {
@@ -443,15 +445,29 @@ main .main-exchange {
 }
 
 
+/*Scroll horizontal sliders*/
+
+.plans-container-slider {
+    padding-top: 50px;
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+
 /*card keloke*/
 
 .plans-card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 0 auto;
+    margin-right: 16px;
     margin-bottom: 64px;
     padding: 0 16px;
     background: var(--just-white);
