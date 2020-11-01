@@ -7,13 +7,17 @@ sr.reveal('.header__img', {
 });
 
 sr.reveal('.scroll-main', {
-    duration: 3000
+    duration: 2000
 });
 
 sr.reveal('.scroll-product-detail', {
-    duration: 3000
+    duration: 2000
 });
 
 sr.reveal('.scroll-image', {
-    duration: 3000
+    duration: 2000
+});
+
+sr.reveal('.scroll-plans', {
+    duration: 2000
 });

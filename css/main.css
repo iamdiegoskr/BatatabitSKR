@@ -10,6 +10,10 @@
     --secondary-grey: #757575;
     --off-white: #FAF8F7;
     --just-white: #FFFFFF;
+    --purple-cool: #845ec2;
+    --bg-recommended: linear-gradient(29deg, rgba(247, 147, 26, 1) 19%, rgba(247, 147, 26, 1) 20%, rgba(0, 0, 0, 1) 100%);
+    --bg-basic: linear-gradient(29deg, rgba(26, 154, 247, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    --bg-vip: linear-gradient(29deg, rgba(132, 94, 194, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 * {
@@ -448,6 +452,7 @@ main .main-exchange {
     max-width: 300px;
     height: 250px;
     margin: 0 auto;
+    margin-bottom: 64px;
     padding: 0 16px;
     background: var(--just-white);
     border: none;
@@ -455,7 +460,7 @@ main .main-exchange {
     box-shadow: 0 4px 8px rgba(89, 73, 30, .16);
 }
 
-.plans-card .card_tittle_recommended {
+.plans-card .card_tittle {
     position: absolute;
     width: 100px;
     height: 30px;
@@ -465,11 +470,22 @@ main .main-exchange {
     color: var(--just-white);
     border-radius: 4px;
     padding: 8px;
-    background: var(--bitcoin-orange);
     top: calc(0% - 15px);
     left: 0;
     right: 0;
     margin: 0 auto;
+}
+
+.card_tittle--recommended {
+    background: var(--bg-recommended);
+}
+
+.card_tittle--basic {
+    background: var(--bg-basic);
+}
+
+.card_tittle--vip {
+    background: var(--bg-vip);
 }
 
 .plans-card .plans-card-content {
@@ -506,10 +522,9 @@ main .main-exchange {
     margin-bottom: 16px;
 }
 
-.plans-card-content .plans-card-ca {
+.plans-card-content .plans-button-ca {
     width: 150px;
     height: 48px;
-    border: 2px solid var(--bitcoin-orange);
     border-radius: 4px;
     font-size: 1.4rem;
     font-family: 'DM Sans', sans-serif;
@@ -519,14 +534,37 @@ main .main-exchange {
     color: var(--warm-black);
 }
 
-.plans-card-content .plans-card-ca span {
+.button--recommended {
+    border: 2px solid var(--bitcoin-orange);
+}
+
+.button--basic {
+    border: 2px solid var(--secondary-blue);
+}
+
+.button--vip {
+    border: 2px solid var(--purple-cool);
+}
+
+.plans-card-content .plans-button-ca .icon-plans {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url('../assets/icons/arrow-right.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
     margin-left: 8px;
+}
+
+.icon-recommended {
+    background-image: url('../assets/icons/arrow-right.svg');
+}
+
+.icon-basic {
+    background-image: url('../assets/icons/flecha-blue.svg');
+}
+
+.icon-vip {
+    background-image: url('../assets/icons/flecha-purple.svg');
 }
